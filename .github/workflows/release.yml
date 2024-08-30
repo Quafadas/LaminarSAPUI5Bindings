@@ -1,8 +1,9 @@
 name: Release
 on:
   push:
-    branches: [publish]
+    branches: [bootleg]
     tags: ["v*"]
+
 jobs:
   publish:
     runs-on: ubuntu-20.04

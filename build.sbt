@@ -29,9 +29,9 @@ val laminarVersion = "17.0.0"
 inThisBuild(
   List(
     name         := "web-components-ui5",
-    organization := "be.doeraene",
+    organization := "io.github.quafadas",
     description  := "Laminar bindings for the web-component library UI5 from SAP",
-    homepage     := Some(url("https://github.com/sherpal/LaminarSAPUI5Bindings")),
+    homepage     := Some(url("https://github.com/Quafadas/LaminarSAPUI5Bindings")),
     licenses     := List("MIT" -> url("http://www.opensource.org/licenses/mit-license.php")),
     developers := List(
       Developer(
