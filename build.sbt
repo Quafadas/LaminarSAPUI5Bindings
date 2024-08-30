@@ -44,6 +44,9 @@ inThisBuild(
   )
 )
 
+ThisBuild / sonatypeCredentialHost := "s01.oss.sonatype.org"
+sonatypeRepository                 := "https://s01.oss.sonatype.org/service/local"
+
 lazy val `web-components-ui5` = project
   .in(file("./web-components"))
   .enablePlugins(ScalaJSPlugin)
